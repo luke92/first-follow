@@ -17,10 +17,18 @@
     font-size: 18px;
     line-height: 1.7;
 
+    .DraftEditor-root {
+      height: 100%;
+    }
+
     .public-DraftEditor-content {
       word-break: break-word;
 
       resize: vertical;
+    }
+
+    .public-DraftStyleDefault-block {
+      white-space: nowrap;
     }
   }
 
